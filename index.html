@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akliseya | Full Stack Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav-container">
+        <h2 class="logo">Full Stack Web Developer</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-btn highlight">About</a></li>
+                <li><a href="#education" class="nav-btn">Education</a></li>
+                <li><a href="#skills" class="nav-btn highlight">Skills</a></li>
+                <li><a href="#projects" class="nav-btn">Projects</a></li>
+                <li><a href="#contact" class="nav-btn highlight">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero reveal">
+    <div class="container hero-grid">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Akliseya Shiferaw</span></h1>
+
+            <h3 class="typing-line">
+                <span id="typing"></span>
+            </h3>
+
+            <p class="intro">
+                3rd year Computer Science student at Dire Dawa University with a strong 
+                foundation in full stack web development. Passionate about building clean, 
+                responsive web applications using HTML, CSS, JavaScript, and Python. 
+                Also pursuing a Management degree, combining technical skills with business 
+                insight.
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/akliseya-shiferaw-85b8aa39b"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Ace0407-akliseya"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="image/profile.jpg" alt="Akliseya Profile">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section reveal">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            I am Akliseya, a motivated professional with strong communication, problem‑solving, and collaboration skills.
+            I thrive in dynamic environments, adapt quickly to new challenges, and consistently deliver clear, results‑driven work.
+            My focus is on continuous growth, innovation, and contributing meaningfully to every project I take on.
+        </p>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section darker reveal">
+    <div class="container">
+        <h2>Education</h2>
+
+        <div class="education-card">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p><strong>Dire Dawa University</strong> | 2023 – Present (3rd Year)</p>
+            <p>CGPA: 3.41</p>
+            <p>Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Development, Operating Systems</p>
+        </div>
+
+        <div class="education-card">
+            <h3>Bachelor of Arts in Management</h3>
+            <p><strong>Dire Dawa University</strong> | 2024 – Present (2nd Year)</p>
+            <p>CGPA: 3.14</p>
+            <p>Relevant Coursework: Business Administration, Organizational Behavior, Marketing Management, Financial Accounting</p>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section reveal">
+    <div class="container">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-grid">
+            <div>Python</div>
+            <div>Java</div>
+            <div>C++</div>
+            <div>React.js</div>
+            <div>HTML5</div>
+            <div>CSS3</div>
+            <div>JavaScript</div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section darker reveal">
+    <div class="container">
+        <h2>My Projects</h2>
+        
+        <div class="projects-grid" id="projects-container">
+            
+            <!-- Scientific Calculator (Java) -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Scientific Calculator</h3>
+                    <p>Java-based scientific calculator with GUI supporting trigonometry, logarithms, and memory functions.</p>
+                  </div>
+                <div class="project-links">
+                    <a href="https://github.com/Ace0407-akliseya/scientific-calculator" target="_blank" class="project-btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="project-btn secondary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                </div>
+            </div>
+
+            <!-- ATM Simulation (Java) -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>ATM Simulation System</h3>
+                    <p>Console-based ATM simulation with balance inquiry, withdrawals, deposits, and secure authentication.</p>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Ace0407-akliseya/atm-simulation" target="_blank" class="project-btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="project-btn secondary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                </div>
+            </div>
+
+            <!-- Food Delivery Website (HTML/CSS/JS) -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Food Delivery Website</h3>
+                    <p class="project-tech-badge">HTML/CSS/JS</p>
+                    <p>Responsive food delivery UI with restaurant listings, cart functionality, and dynamic checkout.</p>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Ace0407-akliseya/Food-Delivery" target="_blank" class="project-btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" target="_blank" class="project-btn secondary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Contact Book (C++) -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Contact Book System</h3>
+                    <p>C++ contact manager with add, search, edit, delete features and file-based persistent storage.</p>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Ace0407-akliseya/contact-book" target="_blank" class="project-btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="project-btn secondary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- CONTACT -->
+<section id="contact" class="section darker reveal">
+    <div class="container">
+        <h2>Contact Me</h2>
+        
+        <!-- Contact Cards -->
+        <div class="contact-cards">
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email</h3>
+                <p>akliseyashiferaw0@gmail.com</p>
+                <a href="mailto:akliseya.shiferaw@example.com" class="contact-link">Send Message →</a>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <h3>Phone</h3>
+                <p>+251 915 039 252</p>
+                <a href="tel:0915039252" class="contact-link">Call Now →</a>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <h3>WhatsApp</h3>
+                <p>Quick Chat</p>
+                <a href="https://wa.me/+251915039252" target="_blank" class="contact-link">Chat Now →</a>
+            </div>
+            
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+            <h3>Send Me a Message</h3>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>© 2026 Akliseya Shiferaw | Full Stack Developer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
