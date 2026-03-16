@@ -39,7 +39,7 @@ FUTURE_FS_01/
 
 ## 👩‍💻 Author
 **Akliseya Shiferaw**  
-📧 akliseya.shiferaw@example.com  
+📧 akliseyashiferaw0@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/akliseya-shiferaw-85b8aa39b)  
 🔗 [GitHub](https://github.com/Ace0407-akliseya)
 
