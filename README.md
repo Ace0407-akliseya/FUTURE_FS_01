@@ -3,7 +3,7 @@
 This is my personal portfolio website built as **Task 1** for the **Future Interns Full Stack Web Development Internship**. It showcases my skills, projects, education, and professional journey as a Computer Science student at Dire Dawa University.
 
 ## 🚀 Live Demo
-🔗 https://Ace0407-akliseya.github.io/FUTURE_FS_01/
+🔗 https://ace0407-akliseya.github.io/FUTURE_FS_01/
 
 ## 🛠️ Built With
 - HTML5, CSS3, JavaScript
